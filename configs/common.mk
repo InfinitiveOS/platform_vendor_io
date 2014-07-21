@@ -77,3 +77,8 @@ PRODUCT_COPY_FILES += \
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/io/overlays/common
+
+# Chromium prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
