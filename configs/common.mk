@@ -59,6 +59,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/init.d/90userinit:system/etc/init.d/90userinit
 
+# Backuptool support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/addon.d/50-io.sh:system/addon.d/50-io.sh \
+    $(LOCAL_PATH)/bin/backuptool.functions:system/bin/backuptool.functions \
+    $(LOCAL_PATH)/bin/backuptool.sh:system/bin/backuptool.sh
+
 # Bootanimation 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
