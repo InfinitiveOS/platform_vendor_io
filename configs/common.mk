@@ -38,6 +38,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    $(LOCAL_PATH)/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 # Bootanimation 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
