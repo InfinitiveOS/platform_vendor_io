@@ -43,6 +43,22 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     $(LOCAL_PATH)/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
+# InfinitiveOS Init file
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/init.local.rc:root/init.io.rc
+
+# Signature compatibility validation
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bin/otasigcheck.sh:system/bin/otasigcheck.sh
+
+# init.d support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bin/sysinit:system/bin/sysinit
+
+# userinit support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/init.d/90userinit:system/etc/init.d/90userinit
+
 # Bootanimation 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
