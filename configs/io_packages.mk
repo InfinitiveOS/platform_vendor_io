@@ -1,4 +1,4 @@
 # InfinitiveOS Packages
 
 # Needed Packages
-PRODUCT_PACKAGES += Launcher3
+PRODUCT_PACKAGES += IOLauncher
