@@ -65,6 +65,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/backuptool.functions:system/bin/backuptool.functions \
     $(LOCAL_PATH)/bin/backuptool.sh:system/bin/backuptool.sh
 
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    media_codecs_ffmpeg.xml
+
 # Bootanimation 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
