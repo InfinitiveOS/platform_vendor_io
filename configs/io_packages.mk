@@ -1,4 +1,8 @@
 # InfinitiveOS Packages
 
 # Needed Packages
-PRODUCT_PACKAGES += IOLauncher
+PRODUCT_PACKAGES += \
+    IOLauncher \
+    AudioFX \
+    Eleven
+       
