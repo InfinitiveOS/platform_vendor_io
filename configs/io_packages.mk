@@ -3,6 +3,5 @@
 # Needed Packages
 PRODUCT_PACKAGES += \
     IOLauncher \
-    AudioFX \
-    Eleven
+    AudioFX
        
