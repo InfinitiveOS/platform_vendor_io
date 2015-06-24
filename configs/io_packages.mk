@@ -3,5 +3,6 @@
 # Needed Packages
 PRODUCT_PACKAGES += \
     IOLauncher \
-    AudioFX
+    AudioFX \
+    IOWallpapers
        
