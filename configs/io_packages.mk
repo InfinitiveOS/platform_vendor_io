@@ -4,5 +4,7 @@
 PRODUCT_PACKAGES += \
     IOLauncher \
     AudioFX \
-    IOWallpapers
+    IOWallpapers \
+    ScreenRecorder \
+    libscreenrecorder
        
